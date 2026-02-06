@@ -1,9 +1,3 @@
-moveTo(x,y){
-this.nodes[0].updateRelative(true,true);
-Let d=Math.hypot(x-this.end.x,y-this.end.y)
-
-
-
 moveTo(x,y) {
 this.nodes[0].updateRelative(true, true);
 Seja d Math.hypot(x this.end.x,y this.end.y), 1 Math.max(0,d-this.speed);
